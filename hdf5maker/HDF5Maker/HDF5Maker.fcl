@@ -1,0 +1,18 @@
+hdf5maker:
+{
+  module_type:  "hdf5maker/HDF5Maker/HDF5Maker"
+  TruthLabel:   "generator"
+  HitLabel:     "gaushit"
+  HitTruthLabel: "gaushitTruthMatch"
+  SPLabel:      ""
+  EventInfo:    "nu"
+  WireLabel:    "butcher"
+  PandoraLabel: "pandora"
+  OpHitLabel:   "ophitBeam"
+  OpFlashLabel: "simpleFlashBeam"
+  T0Label:      "flashmatch"
+  OutputName:   "NeutrinoML"
+  XOffset:      0.6
+  UseMap: true
+  FilesBySubrun: false
+}

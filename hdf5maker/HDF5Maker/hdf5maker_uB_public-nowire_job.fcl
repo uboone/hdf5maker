@@ -1,0 +1,4 @@
+#include "hdf5maker_uB_public_job.fcl"
+
+physics.analyzers.hdf5maker.WireLabel: ""
+physics.analyzers.hdf5maker.OutputName: "NeutrinoML_Open_NoWire"
